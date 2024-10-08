@@ -10,3 +10,19 @@ ul {
     list-style-type: none;
     gap: 14px;
 }
+.intro {
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    line-height:0;
+}
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    border-radius:25px;
+}
+
+
