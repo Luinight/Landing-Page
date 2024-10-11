@@ -4,25 +4,57 @@
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color: #f9faf8;
+    
 }
 ul {
     display: flex;
     list-style-type: none;
     gap: 14px;
+    color: #E5E7EB;
 }
 .intro {
     display: flex;
-    flex-direction:column;
-    margin: 0;
-    padding: 0;
-    line-height:0;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
-.sub {
+.introtitle {
+ color: #f9faf8;
+}
+.sub button {
+   border-radius: 20px;
+   background-color: #3882F6;
+   color: #E5E7EB;
+   border-color: black;
+
+}
+.info {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    border-radius:25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.Fun {
+    flex-basis: 100%;
+    margin-left: 470px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
