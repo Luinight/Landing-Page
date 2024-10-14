@@ -27,8 +27,8 @@ ul {
 }
 .sub button {
    border-radius: 20px;
-   background-color: darkgray;
-   border: 4px solid white;
+   background-color: white;
+   border: 4px solid darkgray;
    font-weight: 900;
 }
 /* Header Section */
@@ -83,6 +83,33 @@ margin-top: -50px;
 
 
 /* Sign-Up Section */
+.Final {
+    display: flex;
+    justify-content: center;
+}
+.superfinal {
+border: solid black;
+display: flex;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 50px;
+margin: 50px;
+height: 50px;
+width: 500px;
+align-items: center;
+justify-content:space-between;
+}
+.finalbutton {
+
+}
+.superfinal button {
+    background-color: white;
+    border: 5px solid darkgray;
+    border-radius: 10px;
+}
+/* Sign-Up Section */
+
 
 
 
